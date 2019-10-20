@@ -1,7 +1,13 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    width: 100vw;
-    height: 100vh;
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
     background-color: blueviolet;
+    margin: 0 auto;
 }
 
 @media screen and (max-width:600px) and (orientation:portrait) {
