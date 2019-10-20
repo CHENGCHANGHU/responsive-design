@@ -1,0 +1,15 @@
+body {
+    background-color: blueviolet;
+}
+
+@media screen and (max-width:600px) and (orientation:portrait) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media (orientation:landscape) {
+    body {
+        background-color: brown;
+    }
+}
