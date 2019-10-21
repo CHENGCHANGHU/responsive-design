@@ -93,6 +93,9 @@ article {
     nav li {
         flex: 1;
     }
+    .grid {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 70em) {
