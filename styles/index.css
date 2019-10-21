@@ -72,7 +72,7 @@ article {
     text-align: right;
 }
 
-@media (orientation:portrait) {
+@media screen and (orientation:portrait) {
     .grid {
         display: block;
     }
