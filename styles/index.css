@@ -73,6 +73,9 @@ article {
 }
 
 @media (orientation:portrait) {
+    .grid {
+        display: block;
+    }
     .grid li {
         margin-bottom: 10px;
     }
